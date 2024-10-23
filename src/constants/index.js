@@ -8,7 +8,7 @@ export const EXPERIENCES = [
     role: "Software Engineer",
     company: "IndiaMart",
     description: `I achieved upto 60% improvement in API response times, minimizing redundant api queries, for this I integrated RabbitMQ for asynchronous messaging, and utilized Cassandra to store search results according to required business logic, this improved the overall efficiency of our systems. In collaboration with cross-functional teams, I developed an internal platform using ReactJS for API calibration, empowering teams to access and analyze production-level results seamlessly. Additionally, I streamlined ETL processes by optimizing Python scripts to extract data from various sources, including API logs and unstructured data. My approach to managing both relational and non-relational databases improved the speed and reliability of our data pipelines. Furthermore, I automated the extraction of audit-relevant data using Python scripts and Cron jobs, significantly reducing manual effort and ensuring accurate, timely data collection for audit processes.`,
-    technologies: ["Python", "Flask","React.js", "Next.js", "Cassandra", "RabbitMQ","Git","Elasticsearch"],
+    technologies: ["Python", "Flask","React.js", "Cassandra", "RabbitMQ"],
   },
   {
     year: "March 2022 - May 2022",
