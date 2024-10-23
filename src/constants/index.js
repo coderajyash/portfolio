@@ -56,21 +56,21 @@ export const PROJECTS = [
     category: "Frontend Development",
     description:
     "The portfolio website is a modern, visually appealing, and highly responsive platform built using React for seamless UI development, Tailwind CSS for sleek and customizable styling, and Framer Motion for smooth animations. The site showcases personal projects, technical skills, and a professional profile. With a minimalist design, the site adapts beautifully to various devices, offering a smooth navigation experience.",
-    technologies: ["HTML", "Tailwind CSS", "React", "Framer Motion"],
+    technologies: ["ReactJs", "Tailwind CSS", "Framer"],
   },
   {
     title: "Groundwater Recharge Rate Analysis",
     category: "Data Analysis",
     description:
       "Conducted time series analysis, employing Seasonal Autoregressive Integrated Moving Average (SARIMA) techniques to assess groundwater recharge rates in Nashik relative to rainfall patterns. Detected unbalanced rainfall and groundwater levels by analyzing 20 years of rainfall records, river data, and standardized groundwater level metrics from various sources",
-    technologies: ["Pandas", "Numpy", "Sklearn", "Time Series Analysis", "Seaborn"],
+    technologies: ["Pandas", "Numpy", "Sklearn", "Seaborn"],
   },
   {
     title: "E-Commerce Website",
     category: "Full Stack Web Development",
     description:
       "In this eCommerce project, I developed a secure authentication system using JSON Web Tokens (JWT) to differentiate between admin and user login paths, ensuring role-based access control. The front-end was designed using ReactJS and Bootstrap, providing a responsive and visually appealing interface, which enhanced the overall user experience across various devices. On the back-end, I utilized Node.js and MongoDB to create a robust and scalable system for efficient data management, enabling seamless product handling, user orders, and inventory updates. Additionally, a separate admin login was implemented to allow administrators to perform actions such as adding, editing, and removing products, which are directly reflected on the eCommerce platform.",
-    technologies: ["HTML", "Bootstrap", "React", "Node.js", "MongoDB","Express"],
+    technologies: ["React", "Bootstrap", "Node.js", "MongoDB","Express"],
   },
   {
     title: "Image Archive Platform",

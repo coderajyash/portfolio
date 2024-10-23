@@ -48,7 +48,7 @@ const Technologies = () => {
         variants={iconVariants(2)} 
         intial="initial"
         animate="animate"
-        className='rounded-2xl border-4 border-white-800 p-4 text-center'>
+        className='p-4 text-center'>
             <RiReactjsLine className='text-7xl text-cyan-400' />
             <span className='text-neutral-900 text-white'>React</span>
         </motion.div>
@@ -56,7 +56,7 @@ const Technologies = () => {
         variants={iconVariants(1.7)}
         intial="initial"
         animate="animate"
-        className='rounded-2xl border-4 border-white-800 p-4 text-center'>
+        className='p-4 text-center'>
             <FaPython className='text-7xl text-white' />
             <span className='text-neutral-900 text-white'>Python</span>
         </motion.div>
@@ -64,7 +64,7 @@ const Technologies = () => {
         variants={iconVariants(2.8)}
         intial="initial"
         animate="animate"
-        className='rounded-2xl border-4 border-white-800 p-4 text-center'>
+        className='p-4 text-center'>
             <FaJava className='text-7xl text-white'/>
             <span className='text-neutral-900 text-white'>Java</span>
         </motion.div>
@@ -72,7 +72,7 @@ const Technologies = () => {
         variants={iconVariants(3)}
         intial="initial"
         animate="animate"
-        className='rounded-2xl border-4 border-white-800 p-4 text-center'>
+        className='p-4 text-center'>
             <IoLogoJavascript className='text-7xl text-yellow-400' />
             <span className='text-neutral-900 text-white'>Javascript</span>
         </motion.div>
@@ -80,7 +80,7 @@ const Technologies = () => {
         variants={iconVariants(2)}
         intial="initial"
         animate="animate"
-        className='rounded-2xl border-4 border-white-800 p-4 text-center'>
+        className='p-4 text-center'>
             <SiApachecassandra className='text-7xl text-white' />
             <span className='text-neutral-900 text-white'>Cassandra</span>
         </motion.div>
@@ -88,14 +88,14 @@ const Technologies = () => {
         variants={iconVariants(2.5)}
         intial="initial"
         animate="animate"
-        className='rounded-2xl border-4 border-white-800 p-4'>
+        className='p-4 text-center'>
             <SiMysql className='text-7xl text-white' />
         </motion.div>
         <motion.div 
         variants={iconVariants(2.7)}
         intial="initial"
         animate="animate"
-        className='rounded-2xl border-4 border-white-800 p-4'>
+        className='p-4 text-center'>
             <SiRabbitmq className='text-7xl text-white' />
             <span className='text-white'>RabbitMQ</span>
         </motion.div>
@@ -103,14 +103,14 @@ const Technologies = () => {
         variants={iconVariants(2.8)}
         intial="initial"
         animate="animate"
-        className='rounded-2xl border-4 border-white-800 p-4'>
+        className='p-4 text-center'>
             <DiNodejs className='text-7xl text-green-700' />
         </motion.div>
         <motion.div 
         variants={iconVariants(3)}
         intial="initial"
         animate="animate"
-        className='rounded-2xl border-4 border-white-800 p-4 text-center'>
+        className='p-4 text-center'>
             <SiFlask className='text-7xl text-white' />
             <span className='text-white'>Flask</span>
         </motion.div>
@@ -118,7 +118,7 @@ const Technologies = () => {
         variants={iconVariants(1.5)}
         intial="initial"
         animate="animate"
-        className='rounded-2xl border-4 border-white-800 p-4 text-center'>
+        className='p-4 text-center'>
             <SiPandas className='text-7xl text-white' />
             <span className='text-nwhite'>Pandas</span>
         </motion.div>
@@ -126,7 +126,7 @@ const Technologies = () => {
         variants={iconVariants(1)}
         intial="initial"
         animate="animate"
-        className='rounded-2xl border-4 border-white-800 p-4 text-center'>
+        className='p-4 text-center'>
             <SiSelenium className='text-7xl text-white' />
             <span className='text-white'>Selenium</span>
         </motion.div>
@@ -134,7 +134,7 @@ const Technologies = () => {
         variants={iconVariants(1.8)}
         intial="initial"
         animate="animate"
-        className='rounded-2xl border-4 border-white-800 p-4 text-center'>
+        className='p-4 text-center'>
             <SiMongodb className='text-7xl text-green-900' />
             <span className='text-white'>MongoDB</span>
         </motion.div>
@@ -142,7 +142,7 @@ const Technologies = () => {
         variants={iconVariants(1)}
         intial="initial"
         animate="animate"
-        className='rounded-2xl border-4 border-white-800 p-4 text-center'>
+        className='p-4 text-center'>
             <FaGithub className='text-7xl text-white' />
             <span className='text-neutral-900 text-white'>Git</span>
         </motion.div>
