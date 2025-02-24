@@ -31,7 +31,7 @@ const Resume = () => {
         className="hover:opacity-80 transition"
       >
         <img 
-          src="src/assets/Resume Image.png"  // Replace with the actual path to your resume image
+          src="src/assets/ResumeImage.png"  // Replace with the actual path to your resume image
           alt="Resume Preview"
           className="w-80 md:w-[500px] lg:w-[600px] shadow-xl rounded-xl border border-gray-300 hover:shadow-3xl transition transform hover:scale-105"
         />
