@@ -13,7 +13,7 @@ const Education = () => {
         {EDUCATIONS.map((education,index) => (
             <div key={index} className='mb-8 flex flex-wrap justify-center'>
                     <div className='w-full lg:w-1/4'>
-                    <p className='mb-2 text-sm text-neutral-400'>{education.year}</p>
+                    <p className='mb-2 text-sm text-bold text-white-200'><span className='mr-2 mt-1 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-400'>{education.year}</span></p>
                     </div>
                     <div className='w-full lg:w-3/4 max-w-xl'>
                     <h6 className='mb-2 font-semibold'>
@@ -25,7 +25,7 @@ const Education = () => {
                             {education.grade}
                         </p>
                         {education.coursework.map((course,index) => (
-                             <span key={index} className='text-sm font-medium text-purple-800'>{course} | </span>
+                             <span key={index} className='text-sm font-bold text-purple-400'>{course} </span>
                         ))}
                     </div>
             </div>

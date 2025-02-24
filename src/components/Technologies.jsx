@@ -12,7 +12,7 @@ import { SiSelenium } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { DiNodejs } from "react-icons/di";
-
+import { SiFastapi } from "react-icons/si";
 
 
 import {motion, transform} from "framer-motion";
@@ -104,7 +104,8 @@ const Technologies = () => {
         intial="initial"
         animate="animate"
         className='p-4 text-center'>
-            <DiNodejs className='text-7xl text-green-700' />
+            <SiFastapi className='text-7xl text-grey-700' />
+            <span className='text-white'>Fast API</span>
         </motion.div>
         <motion.div 
         variants={iconVariants(3)}
