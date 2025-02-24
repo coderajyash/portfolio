@@ -105,6 +105,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "India",
-  number: "+919773861502",
+  number: "+91-9773861502",
   email: "yashrajsingh.dg@gmail.com",
 };

@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import Certifications from './components/Certifications';
+import Resume from './components/Resume';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <section id="education"><Education /></section>
         <section id="projects"><Projects /></section>
         <section id="certifications"><Certifications /></section>
+        <section id="contact"><Resume /></section>
         <section id="contact"><Contact /></section>
       </div>
     </div>
