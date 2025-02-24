@@ -82,7 +82,7 @@ export const CERTIFICATIONS = [
 export const PROJECTS = [
   {
     title: "AI-Powered Handwritten Expression Calculator",
-    category: "AI and Frontend Development",
+    category: "AI and Web Development",
     link: 'https://calc-fe-math.vercel.app/',
     description: "An advanced calculator application built using ReactJS for the frontend and Python FastAPI for the backend. Integrating AI-driven handwriting recognition for mathematical computations. Utilizes a canvas to interpret and process hand-drawn mathematical expressions. Leverages Google’s Gemini Flash API for accurate mathematical expression recognition and problem-solving. Advanced Computation Capabilities: Supports algebraic equations (1x + 2y = ?), physics based problems (e.g., relative velocity calculations), and more.",
     technologies: ["ReactJs", "Tailwind CSS", "Python", "FastAPI", "Gemini"],
