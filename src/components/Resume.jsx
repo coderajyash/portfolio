@@ -1,6 +1,6 @@
 import React from "react";
+import resume_image from '../assets/resume_image.png';
 import { motion } from "framer-motion";
-
 const container = (delay) => ({
     hidden: {
         x: -100,
@@ -30,11 +30,18 @@ const Resume = () => {
         rel="noopener noreferrer"
         className="hover:opacity-80 transition"
       >
-        <img 
-          src="src/assets/ResumeImage.png"  // Replace with the actual path to your resume image
+        {/* <img 
+          src={resume_image}
           alt="Resume Preview"
           className="w-80 md:w-[500px] lg:w-[600px] shadow-xl rounded-xl border border-gray-300 hover:shadow-3xl transition transform hover:scale-105"
-        />
+        /> */}
+        <motion.img
+                 whileInView={{ opacity: 1, y: 0 }}
+                 initial={{ opacity: 0, y: -100 }}
+                 transition={{ duration: 0.8 }}
+                 src={resume_image} 
+                 className='w-80 md:w-[500px] lg:w-[600px] shadow-xl rounded-xl border border-gray-300 hover:shadow-3xl transition transform hover:scale-105'
+                 alt="Resume" />
       </a>
 
       <p className="mt-4 text-purple-400">Click on the image to download  resume</p>
