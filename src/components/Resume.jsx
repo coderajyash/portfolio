@@ -15,6 +15,20 @@ const container = (delay) => ({
         }
     }
 })
+
+const iconVariants = (duration) => ({
+  initial : { y: -10} ,
+  animate : { 
+     y: [10, -10],
+     transition : {
+      duration: duration,
+      repeat : Infinity,
+      ease: 'linear',
+      repeatType: 'reverse'
+  }
+ }
+ });
+
 const Resume = () => {
   return (
     <div className="flex flex-col items-center py-10">
@@ -36,9 +50,9 @@ const Resume = () => {
           className="w-80 md:w-[500px] lg:w-[600px] shadow-xl rounded-xl border border-gray-300 hover:shadow-3xl transition transform hover:scale-105"
         /> */}
         <motion.img
-                 whileInView={{ opacity: 1, y: 0 }}
-                 initial={{ opacity: 0, y: -100 }}
-                 transition={{ duration: 0.8 }}
+                 variants={iconVariants(2)}
+                 intial="initial"
+                 animate="animate"
                  src={resume_image} 
                  className='w-80 md:w-[500px] lg:w-[600px] shadow-xl rounded-xl border border-gray-300 hover:shadow-3xl transition transform hover:scale-105'
                  alt="Resume" />

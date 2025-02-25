@@ -108,7 +108,7 @@ const Technologies = () => {
             <span className='text-white'>Fast API</span>
         </motion.div>
         <motion.div 
-        variants={iconVariants(3)}
+        variants={iconVariants(0.5)}
         intial="initial"
         animate="animate"
         className='p-4 text-center'>
