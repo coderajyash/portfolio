@@ -104,7 +104,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "India",
-  number: "+91-9773861502",
+  address: "India,",
+  number: "+91-9773861502 , +44-7407842367",
   email: "yashrajsingh.dg@gmail.com",
 };
