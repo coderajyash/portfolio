@@ -20,7 +20,9 @@ const Projects = () => {
                     <span className='mr-2 mt-1 rounded bg-white px-2 py-1 text-sm font-medium text-purple-800'>{project.title}</span>| <span className='text-sm text-purple-400'><a href={project.link}>Link</a></span>
                         </h6>
                         <p className='mb-4 text-white'>
-                            {project.description}
+                            {project.description.split("•").map((point, index) => 
+      point.trim() && <li key={index}>{point.trim()}</li>
+    )}
                         </p>
                         <div className="flex flex-wrap gap-3 mt-2">
   {project.technologies.map((tech, index) => (

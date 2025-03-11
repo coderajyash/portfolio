@@ -22,7 +22,9 @@ const Experience = () => {
                         
                         </h6>
                         <p className='mb-4 text-white'>
-                            {experience.description}
+                        {experience.description.split("•").map((point, index) => 
+      point.trim() && <li key={index}>{point.trim()}</li>
+    )}
                         </p>
                         {experience.technologies.map((tech,index) => (
                              <span key={index} className='mr-2 mt-2 rounded-sm bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-400'>{tech}</span>

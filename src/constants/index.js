@@ -1,4 +1,4 @@
-export const HERO_CONTENT = `As a dedicated software engineer with a strong foundation in full-stack development, I bring a combination of technical expertise and a passion for solving complex problems. With experience in developing high-performance applications, optimizing API response times, and managing robust data processes, I have consistently delivered solutions that enhance both user experience and operational efficiency. Skilled in a variety of programming languages and frameworks, I thrive in collaborative environments, where I can contribute to innovative solutions that push boundaries.`;
+export const HERO_CONTENT = `A passionate software engineer with a Master’s in Computer Science (2:1) from Queen Mary University of London and over a year of experience at IndiaMart, where I’ve honed my Python expertise to deliver impactful solutions. I’ve optimized search query systems using Flask and RabbitMQ, built scalable web scraping pipelines for machine learning, and deployed robust Django RESTful APIs on AWS EC2 with CI/CD automation. My projects—like an AI-driven handwritten expression calculator with FastAPI and a Django-powered social media backend—highlight my skills in Python, PostgreSQL, Docker, and Agile workflows. Backed by certifications in Machine Learning with Python (IBM) and Problem Solving (HackerRank), I’m eager to bring my technical creativity and collaborative spirit to your team!`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -60,6 +60,12 @@ export const EDUCATIONS = [
 
 export const CERTIFICATIONS = [
   {
+    title: "Problem Solving (Intermediate)",
+    provider: "HackerRank",
+    link: 'https://www.hackerrank.com/certificates/8e10b03da0ec',
+    coursework: ["Data Structures and Algorithms", "HashMaps, Stacks and Queues", "Optimal Solution"],
+  },
+  {
     title: "Programming with JavaScript",
     provider: "Coursera - Meta",
     link: 'https://coursera.org/share/0ac9973c3d346276fbba63638216d7a5',
@@ -81,24 +87,25 @@ export const CERTIFICATIONS = [
 
 export const PROJECTS = [
   {
+    title: "Django Social Media Backend with RESTful API",
+    category: "Backend Development",
+    link: 'https://github.com/coderajyash/backend',
+    description: "• Designed and implemented a Django-based RESTful API for a social media app enabling core functionalities like user authentication (JWT), posts, likes, and comments, leveraging Django REST Framework and PostgreSQL for efficient data management.• Utilized Django ORM to design relational database models and migrations for posts, comments, and profiles, improving query performance and supporting complex social media interactions.• Configured Pytest to write and execute comprehensive test cases for Django models and viewsets, achieving robust API reliability and reducing bugs in production.• Dockerized the Django application using Docker and Docker Compose, and automated deployment to AWS EC2 via GitHub Actions, establishing a CI/CD pipeline for efficient and scalable cloud hosting.",
+    
+    technologies: ["Django", "Docker", "PyTest", "Postgresql", "CI/CD"],
+  },
+  {
     title: "AI-Powered Handwritten Expression Calculator",
     category: "AI and Web Development",
     link: 'https://calc-fe-math.vercel.app/',
-    description: "An advanced calculator application built using ReactJS for the frontend and Python FastAPI for the backend. Integrating AI-driven handwriting recognition for mathematical computations. Utilizes a canvas to interpret and process hand-drawn mathematical expressions. Leverages Google’s Gemini Flash API for accurate mathematical expression recognition and problem-solving. Advanced Computation Capabilities: Supports algebraic equations (1x + 2y = ?), physics based problems (e.g., relative velocity calculations), and more.",
+    description: "• An advanced calculator application built using ReactJS for the frontend and Python FastAPI for the backend. Integrating AI-driven handwriting recognition for mathematical computations.• Utilizes a canvas to interpret and process hand-drawn mathematical expressions.• Leverages Google’s Gemini Flash API for accurate mathematical expression recognition and problem-solving. Advanced Computation Capabilities: Supports algebraic equations (1x + 2y = ?), physics based problems (e.g., relative velocity calculations), and more.",
     technologies: ["ReactJs", "Tailwind CSS", "Python", "FastAPI", "Gemini"],
   },
   {
-    title: "Portfolio Website",
-    category: "Frontend Development",
-    link: 'https://portfolio-yashraj.vercel.app/',
-    description: "The portfolio website is a modern, visually appealing, and highly responsive platform built using React for seamless UI development, Tailwind CSS for sleek and customizable styling, and Framer Motion for smooth animations. The site showcases personal projects, technical skills, and a professional profile. With a minimalist design, the site adapts beautifully to various devices, offering a smooth navigation experience.",
-    technologies: ["ReactJs", "Tailwind CSS", "Framer"],
-  },
-  {
     title: "Search Space Reduction in Fashion E-Commerce",
-    category: "Data Analysis and Backend Development",
+    category: "Machine Learning and Web Development",
     link: 'https://github.com/coderajyash/Msc-Project',
-    description: "Implemented custom NER models using SpaCy to extract brand names from user queries and a Logistic Regression classifier to categorize search terms, reducing search space effectively. Integrated models with Elasticsearch to refine search results dynamically, enhancing efficiency and reducing irrelevant product listings for users. Built a Flask-based web application featuring both simple and advanced search modes, leading to a measurable reduction in search result volume and improved user experience.",
+    description: "• Implemented custom NER models using SpaCy to extract brand names from user queries and a Logistic Regression classifier to categorize search terms, reducing search space effectively.• Integrated models with Elasticsearch to refine search results dynamically, enhancing efficiency and reducing irrelevant product listings for users.• Built a Flask-based web application featuring both simple and advanced search modes, leading to a measurable reduction in search result volume and improved user experience.",
     technologies: ["Pandas", "Numpy", "SpaCy", "Elasticsearch", "Flask"],
   }
 ];

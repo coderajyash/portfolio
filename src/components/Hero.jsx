@@ -41,7 +41,7 @@ const Hero = () => {
                 variants={container(1)}
                 initial="hidden"
                 animate="visible"
-                className='my-2 max-w-xl py-6 font-light tracking-tighter font-semibold text-white-200'>
+                className='my-2 max-w-2xl py-6 rounded-lg font-thick tracking-tighter font-bold text-white'>
                     { HERO_CONTENT }
                 </motion.p>
             </div>
