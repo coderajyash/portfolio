@@ -60,6 +60,12 @@ export const EDUCATIONS = [
 
 export const CERTIFICATIONS = [
   {
+    title: "Docker for Developers",
+    provider: "Educative",
+    link: 'https://www.educative.io/verify-certificate/GZjlABCO64VjvYxGmFrN34jYWvK9cm',
+    coursework: ["Docker", "DevOps"]
+  },
+  {
     title: "Problem Solving (Intermediate)",
     provider: "HackerRank",
     link: 'https://www.hackerrank.com/certificates/8e10b03da0ec',
@@ -70,12 +76,6 @@ export const CERTIFICATIONS = [
     provider: "Coursera - Meta",
     link: 'https://coursera.org/share/0ac9973c3d346276fbba63638216d7a5',
     coursework: ["Creating and manipulating objects and arrays", "Using DOM and events","Writing unit tests using Jest"],
-  },
-  {
-    title: "Python for Data Science, AI & Development",
-    provider: "Coursera - IBM",
-    link: 'https://coursera.org/share/3afca392d6194a242cacf553d07393f5',
-    coursework: ["Strong understanding of Variables, Data Structures, Loops, Functions, and OOP", " Pandas, NumPy, Beautiful Soup", "Regular Expressions"],
   },
   {
     title: "Machine Learning with Python",

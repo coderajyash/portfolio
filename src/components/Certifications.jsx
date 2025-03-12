@@ -20,6 +20,8 @@ const Certifications = () => {
   <FaMeta className='text-5xl text-white' />
 ) : certi.provider === 'HackerRank' ? (
   <SiHackerrank className='text-5xl text-white' />
+) : certi.provider === 'Educative' ? (
+  <img src='/src/assets/educative.ico' alt='Educative' className='w-12 h-12' />
 ) : (
   <SiCoursera className='text-5xl text-white' />
 )}
