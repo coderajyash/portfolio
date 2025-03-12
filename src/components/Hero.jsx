@@ -41,7 +41,7 @@ const Hero = () => {
                 variants={container(1)}
                 initial="hidden"
                 animate="visible"
-                className='my-2 max-w-2xl py-6 rounded-lg font-thick tracking-tighter font-bold text-white'>
+                className='my-4 max-w-3xl py-6 rounded-lg font-thick tracking-tight text-lg md:text-xl lg:text-xl text-white'> 
                     { HERO_CONTENT }
                 </motion.p>
             </div>
@@ -53,7 +53,7 @@ const Hero = () => {
                  animate={{ x:0,opacity: 1 }}
                  transition={{ duration: 0.5, delay: 1.2 }}
                  src={profilePic} 
-                 className='w-full max-w-xs lg:max-w-lg rounded-full object-cover'
+                 className='w-full max-w-xs lg:max-w-lg rounded-full object-cover tracking-tight'
                  alt="Yash Raj Singh" />
             </div>
             </div>
