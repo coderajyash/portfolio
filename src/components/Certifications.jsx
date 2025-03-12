@@ -1,7 +1,7 @@
 import React from 'react'
 import { CERTIFICATIONS } from '../constants'
 import {motion} from 'framer-motion';
-
+import educative from '/src/assets/educative.ico'
 import { FaMeta } from "react-icons/fa6";
 import { SiCoursera,SiHackerrank } from "react-icons/si";
 const Certifications = () => {
@@ -21,7 +21,7 @@ const Certifications = () => {
 ) : certi.provider === 'HackerRank' ? (
   <SiHackerrank className='text-5xl text-white' />
 ) : certi.provider === 'Educative' ? (
-  <img src='/src/assets/educative.ico' alt='Educative' className='w-12 h-12' />
+  <img src={educative} alt='Educative' className='w-12 h-12' />
 ) : (
   <SiCoursera className='text-5xl text-white' />
 )}
