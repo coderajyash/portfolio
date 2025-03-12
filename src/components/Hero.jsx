@@ -53,7 +53,7 @@ const Hero = () => {
                  animate={{ x:0,opacity: 1 }}
                  transition={{ duration: 0.5, delay: 1.2 }}
                  src={profilePic} 
-                 className='w-full max-w-xs lg:max-w-lg rounded-full'
+                 className='w-full max-w-xs lg:max-w-lg rounded-full object-cover'
                  alt="Yash Raj Singh" />
             </div>
             </div>
