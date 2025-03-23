@@ -7,29 +7,32 @@ export const EXPERIENCES = [
     year: "June 2022 - September 2023",
     role: "Software Engineer",
     company: "IndiaMart",
-    description: `Enhanced the search query correction process (spell correction, language detection, translation) by
-implementing a caching mechanism with Flask, CassandraDB and RabbitMQ, reducing response times
-significantly by asynchronously storing corrected queries for rapid retrieval.
-• Built scalable web scraping pipelines to extract structured data from large online sources (1000+ pages),
-preparing it for training ML models in language detection and translation.
-• Worked with LLM models like ChatGPT and Bard API to generate English translations for a local search
-string, building an audit dataset to evaluate the performance of in-house translation models.
-• Designed an interactive calibration tool for auditing ML model outputs, collaborating with multiple teams
-to ensure accurate evaluations and seamless integration into workflows.`,
-    technologies: ["Python", "Flask","React.js", "Cassandra", "RabbitMQ"],
+    description: `Enhanced the search query correction process by implementing a NoSQL database
+supported caching mechanism resulting in a 60% improvement in API response
+times.|Developed automated pipelines for ethical extraction and cleaning of data from
+1000+ online pages to prepare data for training ML models for language detection
+and translation.|Collaborated with 5+ teams to develop a calibration platform, empowering
+independent auditing of search query correction ML models.
+| Implemented a regional language transliteration algorithm that significantly
+improved the audit process by automating key tasks, resulting in a 50% reduction
+in manual audit workload.`,
+    technologies: ["Python", "Flask","ReactJS", "Cassandra", "RabbitMQ"],
   },
   {
     year: "March 2022 - May 2022",
     role: "Internship",
     company: "IndiaMart",
-    description: `I developed a web crawler using Selenium to aggregate data from various web sources, enabling audits of model performance. • Optimized SQL queries to extract and analyze large datasets (over 1 crore rows) from multiple tables, improving performance for complex data retrieval and ensuring efficient data analysis.`,
+    description: `Optimized Python-based data analysis workflows (20+ python scripts) that utilized
+server logs to produce insightful analytics datasets based on business
+requirements.|Researched online tools and resources and built python scripts, leveraging LLM
+solutions to generate accurate audit data.`,
     technologies: ["Python", "Selenium", "Cron", "MySQL","Kibana"],
   },
   {
     year: "June 2021 - July 2021",
     role: "Internship",
     company: "Robust Results",
-    description: `I created Python scripts to generate insightful reports on key metrics, such as error rates and traffic patterns, aiding in system monitoring. • To ensure the pipeline ran smoothly, I optimized it for performance and set up automated scheduling using Cron jobs, allowing for regular data updates.`,
+    description: `I created Python scripts to generate insightful reports on key metrics, such as error rates and traffic patterns, aiding in system monitoring.|To ensure the pipeline ran smoothly, I optimized it for performance and set up automated scheduling using Cron jobs, allowing for regular data updates.`,
     technologies: ["Python", "Pandas", "NumPy", "SQLAlchemy"],
   }
 ];
@@ -51,7 +54,7 @@ export const EDUCATIONS = [
   },
   {
     year: "2016 - 2017",
-    degree: "A-levels",
+    degree: "A-levels/12th",
     university: "City Montessori School, India",
     grade: `CGPA: 9.1/10`,
     coursework: ["Mathematics |", "Computer Application | ", "Physics | ", "Chemistry"],
@@ -111,7 +114,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "India,",
+  address: "India",
   number: "+91-9773861502 , +44-7407842367",
   email: "yashrajsingh.dg@gmail.com",
 };

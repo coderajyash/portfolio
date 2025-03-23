@@ -17,7 +17,7 @@ const Education = () => {
                     </div>
                     <div className='w-full lg:w-3/4 max-w-xl'>
                     <h6 className='mb-2 font-semibold'>
-                        {education.degree} - 
+                        <span className='mr-2 mt-1 rounded bg-white px-2 py-1 text-sm font-medium text-purple-800'>{education.degree}</span> - 
                         <span className='text-sm text-purple-400'> {education.university} </span>
                         
                         </h6>

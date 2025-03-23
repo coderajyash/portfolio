@@ -22,7 +22,7 @@ const Experience = () => {
                         
                         </h6>
                         <p className='mb-4 text-white'>
-                        {experience.description.split("•").map((point, index) => 
+                        {experience.description.split("|").map((point, index) => 
       point.trim() && <li key={index}>{point.trim()}</li>
     )}
                         </p>
