@@ -1,6 +1,8 @@
-export const HERO_CONTENT = `A passionate software engineer with a Master’s in Computer Science (2:1) from Queen Mary University of London and over a year of experience at IndiaMart, where I’ve honed my Python expertise to deliver impactful solutions. I’ve optimized search query systems using Flask and RabbitMQ, built scalable web scraping pipelines for machine learning, and deployed robust Django RESTful APIs on AWS EC2 with CI/CD automation. My projects—like an AI-driven handwritten expression calculator with FastAPI and a Django-powered social media backend—highlight my skills in Python, PostgreSQL, Docker, and Agile workflows. Backed by certifications in Machine Learning with Python (IBM) and Problem Solving (HackerRank), I’m eager to bring my technical creativity and collaborative spirit to your team!`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I’m Yash Raj Singh, a Computer Science graduate (M.Sc. from Queen Mary University of London, 2023-2024) with a passion
+for coding and problem-solving. I worked as a Software Engineer at IndiaMART for over a year, where I improved API response
+times by 60% using NOSQL database caching and cut manual audit work by 50% with automation. Furthermore, I’m skilled in
+Python, API Development and SQL, and I’ve built projects like a social media backend and an AI calculator for handwritten
+math.`;
 
 export const EXPERIENCES = [
   {
@@ -42,7 +44,7 @@ export const EDUCATIONS = [
     year: "2023 - 2024",
     degree: "Master of Science in Computer Science",
     university: "Queen Mary University of London, UK",
-    grade: `CGPA: 3.7/4.0`,
+    grade: `GPA: 3.7/4.0`,
     coursework: ["Logic in Computer Science | ", "Semi-structured Data Engineering | ", "Security and Authentication | ", "Machine Learning | ","Interactive System Design"],
   },
   {
