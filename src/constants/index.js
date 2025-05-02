@@ -11,8 +11,8 @@ export const EXPERIENCES = [
 supported caching mechanism resulting in a 60% improvement in API response
 times.|Developed automated pipelines for ethical extraction and cleaning of data from
 1000+ online pages to prepare data for training ML models for language detection
-and translation.|Collaborated with 5+ teams to develop a calibration platform, empowering
-independent auditing of search query correction ML models.
+and translation.|Addressed team inefficiencies by building a calibration platform that
+automated processes, leading to a 20% reduction in redundant work.
 | Implemented a regional language transliteration algorithm that significantly
 improved the audit process by automating key tasks, resulting in a 50% reduction
 in manual audit workload.`,
@@ -42,21 +42,21 @@ export const EDUCATIONS = [
     year: "2023 - 2024",
     degree: "Master of Science in Computer Science",
     university: "Queen Mary University of London, UK",
-    grade: `CGPA: 6.8/10`,
+    grade: `CGPA: 3.7/4.0`,
     coursework: ["Logic in Computer Science | ", "Semi-structured Data Engineering | ", "Security and Authentication | ", "Machine Learning | ","Interactive System Design"],
   },
   {
     year: "2018 - 2022",
     degree: "Bachelor of Technology in Information Technology",
     university: "AKTU, India",
-    grade: `CGPA: 8.03/10`,
+    grade: `GPA: 4.0/4.0`,
     coursework: ["Algorithm design | ", "Data Structures | ","Database Management | ", "Operating System | ", "Computer Networks | ","Object Oriented Programming | ","Software Project Management"],
   },
   {
     year: "2016 - 2017",
     degree: "A-levels/12th",
     university: "City Montessori School, India",
-    grade: `CGPA: 9.1/10`,
+    grade: `GPA: 4.0/4.0`,
     coursework: ["Mathematics |", "Computer Application | ", "Physics | ", "Chemistry"],
   }
 ];
