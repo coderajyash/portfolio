@@ -1,7 +1,7 @@
 export const HERO_CONTENT = `I’m Yash Raj Singh, a Computer Science graduate (M.Sc. from Queen Mary University of London, 2023-2024) with a passion
 for coding and problem-solving. I worked as a Software Engineer at IndiaMART for over a year, where I improved API response
-times by 60% using NOSQL database caching and cut manual audit work by 50% with automation. Furthermore, I’m skilled in
-Python, API Development and SQL, and I’ve built projects like a social media backend and an AI calculator for handwritten
+times by 60% using NOSQL database caching and cut manual audit work by 50% with automation.Furthermore, I’m skilled in
+Python, API Development, Web Crawling and SQL, and I’ve built projects like a social media backend and an AI calculator for handwritten
 math.`;
 
 export const EXPERIENCES = [
