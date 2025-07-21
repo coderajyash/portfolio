@@ -7,27 +7,23 @@ math.`;
 export const EXPERIENCES = [
   {
     year: "June 2022 - September 2023",
-    role: "Software Engineer",
+    role: "Analytics Engineer",
     company: "IndiaMart",
-    description: `Enhanced the search query correction process by implementing a NoSQL database
-supported caching mechanism resulting in a 60% improvement in API response
-times.|Developed automated pipelines for ethical extraction and cleaning of data from
-1000+ online pages to prepare data for training ML models for language detection
-and translation.|Addressed team inefficiencies by building a calibration platform that
-automated processes, leading to a 20% reduction in redundant work.
-| Implemented a regional language transliteration algorithm that significantly
-improved the audit process by automating key tasks, resulting in a 50% reduction
-in manual audit workload.`,
-    technologies: ["Python", "Flask","ReactJS", "Cassandra", "RabbitMQ"],
+    description: `Designed and built automated ETL pipelines using Python-based web scraping to ingest multilingual data from 10+ sources, stored raw data in Azure Data Lake, processed it using Azure Databricks, and served cleaned datasets to ML teams for training a translation model.
+| Worked closely with product and QA teams to gather data requirements and validate ML output quality and system performance.
+| Wrote complex SQL queries to aggregate KPIs, extract insights, and validate ML outputs across large datasets.
+| Developed a regional language transliteration algorithm that improved the audit process by automating key tasks, resulting in a 50% reduction in manual audit workload.`,
+    technologies: ["Python", "SQL","Spark","Cassandra", "RabbitMQ"],
   },
   {
     year: "March 2022 - May 2022",
     role: "Internship",
     company: "IndiaMart",
-    description: `Optimized Python-based data analysis workflows (20+ python scripts) that utilized
-server logs to produce insightful analytics datasets based on business
-requirements.|Researched online tools and resources and built python scripts, leveraging LLM
-solutions to generate accurate audit data.`,
+    description: `Processed large datasets using Python libraries, with experience
+handling semi-structured data formats (JSON, CSV, XML) in distributed
+environments.|Used PySpark to clean and transform large scraped datasets for
+analysis, improving processing efficiency and supporting data
+preparation for ML tasks.`,
     technologies: ["Python", "Selenium", "Cron", "MySQL","Kibana"],
   },
   {
