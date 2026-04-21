@@ -3,7 +3,7 @@ import { CERTIFICATIONS } from '../constants'
 import {motion} from 'framer-motion';
 import educative from '/src/assets/educative.ico'
 import { FaMeta } from "react-icons/fa6";
-import { SiCoursera,SiHackerrank } from "react-icons/si";
+import { SiCoursera,SiHackerrank,SiDatacamp, BsAnthropic } from "react-icons/si";
 const Certifications = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
@@ -16,12 +16,12 @@ const Certifications = () => {
         {CERTIFICATIONS.map((certi,index) => (
             <div key={index} className='mb-8 flex flex-wrap justify-center'>
                     <div className='w-full lg:w-1/4 p-4 text-center text-white'>
-                    {certi.provider === 'Coursera - Meta' ? (
-  <FaMeta className='text-5xl text-white' />
+                    {certi.provider === 'DataCamp' ? (
+  <SiDatacamp className='text-5xl text-white' />
 ) : certi.provider === 'HackerRank' ? (
   <SiHackerrank className='text-5xl text-white' />
-) : certi.provider === 'Educative' ? (
-  <img src={educative} alt='Educative' className='w-12 h-12' />
+) : certi.provider === 'Anthropic' ? (
+  <BsAnthropic className='text-5xl text-white' />
 ) : (
   <SiCoursera className='text-5xl text-white' />
 )}

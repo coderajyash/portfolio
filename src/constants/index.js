@@ -1,37 +1,41 @@
-export const HERO_CONTENT = `I’m Yash Raj Singh, a Computer Science graduate (M.Sc. from Queen Mary University of London, 2023-2024) with a passion
-for coding and problem-solving. I worked as a Software Engineer at IndiaMART for over a year, where I improved API response
-times by 60% using NOSQL database caching and cut manual audit work by 50% with automation.Furthermore, I’m skilled in
-Python, API Development, Web Crawling and SQL, and I’ve built projects like a social media backend and an AI calculator for handwritten
-math.`;
+export const HERO_CONTENT = `With an MSc in Computer Science and hands-on industry experience, I sit at the crossroads of data engineering, backend development, and AI. I've shipped transformer-based search systems that moved the needle on CTR, built fully offline LLM-powered RAG pipelines, and automated data quality workflows that eliminated hours of manual overhead. Whether it's designing ETL pipelines from scratch, optimising API performance under load, or integrating LLMs into production workflows — I bring engineering precision and a data-first mindset to every challenge. Proficient in Python, SQL, PySpark, Azure, Databricks, Snowflake, FastAPI, and LangChain, I thrive in fast-paced environments where the goal is clear and the path isn't.`;
 
 export const EXPERIENCES = [
   {
-    year: "June 2022 - September 2023",
-    role: "Analytics Engineer",
-    company: "IndiaMart",
-    description: `Designed and built automated ETL pipelines using Python-based web scraping to ingest multilingual data from 10+ sources, stored raw data in Azure Data Lake, processed it using Azure Databricks, and served cleaned datasets to ML teams for training a translation model.
-| Worked closely with product and QA teams to gather data requirements and validate ML output quality and system performance.
-| Wrote complex SQL queries to aggregate KPIs, extract insights, and validate ML outputs across large datasets.
-| Developed a regional language transliteration algorithm that improved the audit process by automating key tasks, resulting in a 50% reduction in manual audit workload.`,
-    technologies: ["Python", "SQL","Spark","Cassandra", "RabbitMQ"],
+    year: "July 2025 - Present",
+    role: "Domain Expert (Data Analytics)",
+    company: "Golds Gym UK",
+    description: `Designed scoring rubrics for AI training tasks, ensuring consistent and accurate annotation across
+datasets.
+| Identified logical flaws, runtime risks, edge-case failures, and inefficient query structures in
+AI-generated code`,
+    technologies: ["Data Analysis", "SQL", "Python", "LLM Prompting"],
   },
   {
-    year: "March 2022 - May 2022",
-    role: "Internship",
-    company: "IndiaMart",
-    description: `Processed large datasets using Python libraries, with experience
-handling semi-structured data formats (JSON, CSV, XML) in distributed
-environments.|Used PySpark to clean and transform large scraped datasets for
-analysis, improving processing efficiency and supporting data
-preparation for ML tasks.`,
-    technologies: ["Python", "Selenium", "Cron", "MySQL","Kibana"],
+    year: "October 2024 - February 2025",
+    role: "Customer Analyst",
+    company: "Golds Gym UK",
+    description: `Analyzed customer membership trends and churn patterns using Excel PivotTables, VLOOKUP, and
+conditional logic to identify factors influencing member retention and drop-off.
+| Performed cohort analysis using Excel to evaluate the effectiveness of promotions and
+loyalty programs in improving long-term member value.`,
+    technologies: ["Data Analysis", "SQL", "Tableau"],
   },
   {
-    year: "June 2021 - July 2021",
-    role: "Internship",
-    company: "Robust Results",
-    description: `I created Python scripts to generate insightful reports on key metrics, such as error rates and traffic patterns, aiding in system monitoring.|To ensure the pipeline ran smoothly, I optimized it for performance and set up automated scheduling using Cron jobs, allowing for regular data updates.`,
-    technologies: ["Python", "Pandas", "NumPy", "SQLAlchemy"],
+    year: "March 2022 - September 2023",
+    role: "Software Engineer (Big Data)",
+    company: "IndiaMart",
+    description: `Implemented a distributed caching mechanism using a NoSQL database and
+asynchronous message queues, improving API response time by 40%
+| Developed transformer-based query intent classification models to enhance search
+ranking quality, resulting in a 12% improvement in click-through rate (CTR).
+| Created automated web scraping pipelines using Python, BeautifulSoup, and Selenium to collect
+and preprocess bilingual datasets (500,000+ records) for NLP model training.
+| Designed modular, testable backend components by enforcing separation of concerns,
+improving maintainability and enabling independent testing of business logic.
+| Automated data quality checks and validation workflows by integrating LLM capabilities,
+significantly reducing manual operational overhead and accelerating audit cycles.`,
+    technologies: ["Python", "SQL", "PySpark","Azure", "RabbitMQ"],
   }
 ];
 
@@ -61,10 +65,10 @@ export const EDUCATIONS = [
 
 export const CERTIFICATIONS = [
   {
-    title: "Docker for Developers",
-    provider: "Educative",
-    link: 'https://www.educative.io/verify-certificate/GZjlABCO64VjvYxGmFrN34jYWvK9cm',
-    coursework: ["Docker", "DevOps"]
+    title: "Associate Data Engineer",
+    provider: "DataCamp",
+    link: 'https://www.datacamp.com/completed/statement-of-accomplishment/track/4a4fd049711b9d62b665a2476b99fea899f10e3f',
+    coursework: ["Data Engineering", "Data Pipelines", "Data Warehousing"],
   },
   {
     title: "Problem Solving (Intermediate)",
@@ -73,9 +77,9 @@ export const CERTIFICATIONS = [
     coursework: ["Data Structures and Algorithms", "HashMaps, Stacks and Queues", "Optimal Solution"],
   },
   {
-    title: "Programming with JavaScript",
-    provider: "Coursera - Meta",
-    link: 'https://coursera.org/share/0ac9973c3d346276fbba63638216d7a5',
+    title: "Claude Code in Action",
+    provider: "Anthropic",
+    link: 'https://verify.skilljar.com/c/2jnqrbcxpswr',
     coursework: ["Creating and manipulating objects and arrays", "Using DOM and events","Writing unit tests using Jest"],
   },
   {
@@ -87,6 +91,13 @@ export const CERTIFICATIONS = [
 ];
 
 export const PROJECTS = [
+    {
+    title: "PDFOracle - Local RAG PDF Chat Application",
+    category: "AI Development",
+    link: 'https://github.com/coderajyash/RAG-pdf-chat',
+    description:"• Built a local RAG application to query PDF documents using natural language with HuggingFace embeddings, Qdrant vector store, and Llama 3.2 via Ollama - zero API cost. • Implemented a semantic search pipeline using all-MiniLM-L6-v2 embeddings and cosine similarity to retrieve context-relevant document chunks for LLM-grounded answers.• Designed a two-phase LangChain pipeline covering PDF ingestion, text chunking, vector embedding, retrieval, and prompt-based answer generation using LCEL chain composition.• Replaced all paid cloud AI services with a fully offline, privacy-first stack using open-source models, eliminating external API dependencies entirely.",
+    technologies: ["LangChain", "Docker", "Python", "VectorDB"],
+  },
   {
     title: "Django Social Media Backend with RESTful API",
     category: "Backend Development",
@@ -112,7 +123,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "India",
+  address: "UK | India",
   number: "+91-9773861502 , +44-7407842367",
   email: "yashrajsingh.dg@gmail.com",
 };
