@@ -195,7 +195,7 @@ const Technologies = () => {
               <span>Pandas</span>
             </div>
             <div className="flex flex-col items-center">
-              <SiSiDatabricks className="text-8xl lg:text-8xl md:text-5xl sm:text-2xl text-white" />
+              <SiDatabricks className="text-8xl lg:text-8xl md:text-5xl sm:text-2xl text-white" />
               <span>SiDatabricks</span>
             </div>
             <div className="flex flex-col items-center">
