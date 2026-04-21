@@ -4,7 +4,7 @@ export const EXPERIENCES = [
   {
     year: "July 2025 - Present",
     role: "Domain Expert (Data Analytics)",
-    company: "Golds Gym UK",
+    company: "Outlier AI",
     description: `Designed scoring rubrics for AI training tasks, ensuring consistent and accurate annotation across
 datasets.
 | Identified logical flaws, runtime risks, edge-case failures, and inefficient query structures in
@@ -26,7 +26,7 @@ loyalty programs in improving long-term member value.`,
     role: "Software Engineer (Big Data)",
     company: "IndiaMart",
     description: `Implemented a distributed caching mechanism using a NoSQL database and
-asynchronous message queues, improving API response time by 40%
+asynchronous message queues, improving API response time by 40%.
 | Developed transformer-based query intent classification models to enhance search
 ranking quality, resulting in a 12% improvement in click-through rate (CTR).
 | Created automated web scraping pipelines using Python, BeautifulSoup, and Selenium to collect

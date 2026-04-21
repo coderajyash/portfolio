@@ -141,7 +141,7 @@
 //--------------------Approach 2 ------------
 import { motion } from "framer-motion";
 import StackIcon from "tech-stack-icons";
-import { SiRabbitmq, SiFastapi, SiPandas, SiSelenium, SiNumpy, SiPytest } from "react-icons/si";
+import { SiRabbitmq, SiFastapi, SiPandas, SiSelenium, SiNumpy, SiPytest, SiDatabricks } from "react-icons/si";
 
 const technologies = [
   "Python", "Java", "JavaScript", "HTML", "CSS", "Bootstrap", "ReactJS", "Django", "Flask", "FastAPI", "TailwindCSS", "Kibana",
@@ -195,8 +195,8 @@ const Technologies = () => {
               <span>Pandas</span>
             </div>
             <div className="flex flex-col items-center">
-              <SiNumpy className="text-8xl lg:text-8xl md:text-5xl sm:text-2xl text-white" />
-              <span>Numpy</span>
+              <SiSiDatabricks className="text-8xl lg:text-8xl md:text-5xl sm:text-2xl text-white" />
+              <span>SiDatabricks</span>
             </div>
             <div className="flex flex-col items-center">
               <StackIcon name="kibana" className="text-3xl lg:text-3xl md:text-2xl sm:text-xl" />
@@ -292,7 +292,7 @@ const Technologies = () => {
             </div>
             <div className="flex flex-col items-center">
               <StackIcon name="aws" className="text-3xl lg:text-3xl md:text-2xl sm:text-xl text-xl" />
-              <span>AWS(EC2)</span>
+              <span>AWS(EC2, S3)</span>
             </div>
           </div>
         </motion.div>
