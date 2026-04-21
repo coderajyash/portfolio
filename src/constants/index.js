@@ -80,7 +80,7 @@ export const CERTIFICATIONS = [
     title: "Claude Code in Action",
     provider: "Anthropic",
     link: 'https://verify.skilljar.com/c/2jnqrbcxpswr',
-    coursework: ["Creating and manipulating objects and arrays", "Using DOM and events","Writing unit tests using Jest"],
+    coursework: ["Agentic AI", "Efficient Prompting","MCP"],
   },
   {
     title: "Machine Learning with Python",
