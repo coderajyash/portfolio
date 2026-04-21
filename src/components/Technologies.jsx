@@ -99,15 +99,15 @@ const Technologies = () => {
           <span className="mb-4">ML & AI</span>
           <div className="flex justify-center space-x-6">
             <div className="flex flex-col items-center">
-              <SiPytorch className="text-3xl lg:text-3xl md:text-2xl sm:text-xl" />
+              <SiPytorch className="text-8xl lg:text-8xl md:text-5xl sm:text-2xl text-white" />
               <span>PyTorch</span>
             </div>
             <div className="flex flex-col items-center">
-              <SiClaude className="text-3xl lg:text-3xl md:text-2xl sm:text-xl" />
+              <SiClaude className="text-8xl lg:text-8xl md:text-5xl sm:text-2xl text-white" />
               <span>Claude</span>
             </div>
             <div className="flex flex-col items-center">
-              <SiHuggingface className="text-3xl lg:text-3xl md:text-2xl sm:text-xl" />
+              <SiHuggingface className="text-8xl lg:text-8xl md:text-5xl sm:text-2xl text-white" />
               <span>Huggingface</span>
             </div>
           </div>
