@@ -141,7 +141,7 @@
 //--------------------Approach 2 ------------
 import { motion } from "framer-motion";
 import StackIcon from "tech-stack-icons";
-import { SiRabbitmq, SiFastapi, SiPandas, SiSelenium, SiNumpy, SiPytest, SiDatabricks } from "react-icons/si";
+import { SiRabbitmq, SiFastapi, SiSelenium, SiSnowflake, SiPytest, SiDatabricks, SiPytorch, SiHuggingface } from "react-icons/si";
 
 const technologies = [
   "Python", "Java", "JavaScript", "HTML", "CSS", "Bootstrap", "ReactJS", "Django", "Flask", "FastAPI", "TailwindCSS", "Kibana",
@@ -191,12 +191,12 @@ const Technologies = () => {
           <span className="mb-4">Data & Analytics</span>
           <div className="flex justify-center space-x-6">
             <div className="flex flex-col items-center">
-              <SiPandas className="text-8xl lg:text-8xl md:text-5xl sm:text-2xl text-white" />
-              <span>Pandas</span>
+              <SiSnowflake className="text-8xl lg:text-8xl md:text-5xl sm:text-2xl text-white" />
+              <span>SnowFlake</span>
             </div>
             <div className="flex flex-col items-center">
               <SiDatabricks className="text-8xl lg:text-8xl md:text-5xl sm:text-2xl text-white" />
-              <span>SiDatabricks</span>
+              <span>Databricks</span>
             </div>
             <div className="flex flex-col items-center">
               <StackIcon name="kibana" className="text-3xl lg:text-3xl md:text-2xl sm:text-xl" />
@@ -236,19 +236,19 @@ const Technologies = () => {
           className="rounded-xl bg-[#21233f] flex flex-col items-center justify-center text-white text-lg font-semibold min-h-[200px] shadow-lg"
           whileHover={{ scale: 1.05 }}
         >
-          <span className="mb-4">UI/UX Styling</span>
+          <span className="mb-4">ML & AI</span>
           <div className="flex justify-center space-x-6">
             <div className="flex flex-col items-center">
-              <StackIcon name="html5" className="text-3xl lg:text-3xl md:text-2xl sm:text-xl" />
-              <span>HTML</span>
+              <SiPytorch className="text-3xl lg:text-3xl md:text-2xl sm:text-xl" />
+              <span>PyTorch</span>
             </div>
             <div className="flex flex-col items-center">
-              <StackIcon name="bootstrap5" className="text-3xl lg:text-3xl md:text-2xl sm:text-xl" />
-              <span>Bootstrap</span>
+              <SiClaude className="text-3xl lg:text-3xl md:text-2xl sm:text-xl" />
+              <span>Claude</span>
             </div>
             <div className="flex flex-col items-center">
-              <StackIcon name="tailwindcss" className="text-3xl lg:text-3xl md:text-2xl sm:text-xl" />
-              <span>TailwindCSS</span>
+              <SiHuggingface className="text-3xl lg:text-3xl md:text-2xl sm:text-xl" />
+              <span>Huggingface</span>
             </div>
           </div>
         </motion.div>
