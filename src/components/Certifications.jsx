@@ -3,7 +3,7 @@ import { CERTIFICATIONS } from '../constants'
 import {motion} from 'framer-motion';
 import educative from '/src/assets/educative.ico'
 import { FaMeta } from "react-icons/fa6";
-import { SiCoursera,SiHackerrank,SiDatacamp, BsAnthropic } from "react-icons/si";
+import { SiCoursera,SiHackerrank,SiDatacamp, SiAnthropic } from "react-icons/si";
 const Certifications = () => {
   return (
     <div className='border-b border-neutral-900 pb-4'>
@@ -21,7 +21,7 @@ const Certifications = () => {
 ) : certi.provider === 'HackerRank' ? (
   <SiHackerrank className='text-5xl text-white' />
 ) : certi.provider === 'Anthropic' ? (
-  <BsAnthropic className='text-5xl text-white' />
+  <SiAnthropic className='text-5xl text-white' />
 ) : (
   <SiCoursera className='text-5xl text-white' />
 )}
