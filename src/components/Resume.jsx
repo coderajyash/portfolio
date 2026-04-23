@@ -39,7 +39,7 @@ const Resume = () => {
                     Resume
                 </span>
       <a 
-        href="https://drive.google.com/file/d/1cIbNiShggN8R9vY7UrolgKQE5BeGDbIs/view?usp=sharing" 
+        href="https://drive.google.com/file/d/1edkf-dkVwi4i2pAMcWL8WgBRW7BkIo_8/view?usp=drive_link" 
         target="_blank" 
         rel="noopener noreferrer"
         className="hover:opacity-80 transition"
