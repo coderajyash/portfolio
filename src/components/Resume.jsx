@@ -1,5 +1,5 @@
 import React from "react";
-import resume_image from '../assets/resume_image.png';
+import resume_image from '../assets/resume_image.jpeg';
 import { motion } from "framer-motion";
 const container = (delay) => ({
     hidden: {
